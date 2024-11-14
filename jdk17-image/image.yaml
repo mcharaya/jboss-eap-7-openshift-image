@@ -137,11 +137,6 @@ modules:
             version: '7'
           - name: jboss.container.eap.jdk-cert-remove            
 
-artifacts:
-  - name: maven-repo
-    target: maven-repo.zip  
-    md5: c7e39f2e91f210e356ca268f904a9593
-
 run:
       user: 185
       cmd:
