@@ -22,12 +22,12 @@ envs:
   description: By default the feature-pack sources are deleted. Set this variable to true to keep it in the image (mainly for debug purpose).
 
 artifacts:
-  - url: http://download.hosts.prod.upshift.rdu2.redhat.com/devel/candidates/middleware/eap-xp/JBEAP-XP-4.0.2-7.4.19/jboss-eap-xp-4.0.2-7.4.19-image-builder-maven-repository.zip
+  - url: http://download.devel.redhat.com/released/JBoss-middleware//eap-xp/4.0.2-7.4.19/jboss-eap-xp-4.0.2-7.4.19-image-builder-maven-repository.zip
     md5: 3959836851dade6c5b709798b1acb3e2
     # Optionally, overwrite target name
     target: maven-repo.zip
     # Optionally, provide source of the artifact
-    source-url: http://download.hosts.prod.upshift.rdu2.redhat.com/devel/candidates/middleware/eap-xp/JBEAP-XP-4.0.2-7.4.19/jboss-eap-xp-4.0.2-7.4.19-src.zip
+    source-url: http://download.devel.redhat.com/released/JBoss-middleware//eap-xp/4.0.2-7.4.19/jboss-eap-xp-4.0.2-7.4.19-src.zip
     # When source-url is specified, checksum must be provided
     source-md5: a8e36d1c77217348cf788fbd18cb15fb
 
