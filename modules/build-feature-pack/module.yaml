@@ -22,8 +22,8 @@ envs:
   description: By default the feature-pack sources are deleted. Set this variable to true to keep it in the image (mainly for debug purpose).
 
 artifacts:
-  - url: https://download.devel.redhat.com/rcm-guest/staging/jboss-eap/JBEAP-7.4.21.GA-CR1/jboss-eap-7.4.21.GA-JBEAP-29548-image-builder-maven-repository.zip
-    md5: 7c49b96aa3eb760ca3d9e6f818af73db
+  - url: https://download.devel.redhat.com/rcm-guest/staging/jboss-eap/JBEAP-7.4.21.GA-CR1-JBEAP-29548/jboss-eap-7.4.21.GA-JBEAP-29548-image-builder-maven-repository.zip
+    md5: bde8b9f09109194ac0c2382b489d6c10
     # Optionally, overwrite target name
     target: maven-repo.zip
     # Optionally, provide source of the artifact
