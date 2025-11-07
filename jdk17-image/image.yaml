@@ -1,6 +1,6 @@
 schema_version: 1
 
-name: "jboss-eap-7/eap74-openjdk17-openshift-rhel8"
+name: "jboss-eap-7/eap74-openjdk17-els-openshift-rhel8"
 description: "Red Hat JBoss Enterprise Application Platform 7.4 OpenShift container image."
 version: "7.4.23"
 from: "registry.redhat.io/ubi8/ubi:latest"
@@ -161,4 +161,4 @@ osbs:
         signing_intent: release
   repository:
     name: containers/jboss-eap-74-openjdk17-builder
-    branch: jb-eap-7.4-rhel-8
+    branch: jb-eap-7.4-els-rhel-8
