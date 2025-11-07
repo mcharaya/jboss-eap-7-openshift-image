@@ -160,5 +160,5 @@ osbs:
         pulp_repos: true
         signing_intent: release
   repository:
-    name: containers/jboss-eap-74-els-openjdk17-builder
+    name: containers/jboss-eap-74-openjdk17-builder
     branch: jb-eap-7.4-els-rhel-8
