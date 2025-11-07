@@ -9,6 +9,6 @@ Feature: Common EAP tests
   Scenario: Check that the labels are correctly set
     Given image is built
     Then the image should contain label com.redhat.component with value jboss-eap-74-els-openjdk11-builder-openshift-rhel8-container
-    And the image should contain label name with value jboss-eap-7/eap74-openjdk11-els-openshift-rhel8
+    And the image should contain label name with value jboss-eap-7/eap74-els-openjdk11-openshift-rhel8
     And the image should contain label io.openshift.expose-services with value 8080:http
     And the image should contain label io.openshift.tags with value builder,javaee,eap,eap7
