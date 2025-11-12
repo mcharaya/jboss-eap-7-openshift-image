@@ -27,7 +27,7 @@ artifacts:
     # Optionally, overwrite target name
     target: maven-repo.zip
     # Optionally, provide source of the artifact
-    source-url: http://download.devel.redhat.com/released/JBoss-middleware/eap7/7.4.23/jboss-eap-7.4.23-src.zip
+    source-url: https://download.devel.redhat.com/released/JBoss-middleware/eap7/7.4.23/jboss-eap-7.4.23-src.zip
     # When source-url is specified, checksum must be provided
     source-md5: 1ab1d7afb173852f9d794d38045b558b
 
