@@ -1,12 +1,12 @@
 schema_version: 1
 
-name: "jboss-eap-7/eap74-openjdk17-openshift-rhel8"
+name: "jboss-eap-7/eap74-els-openjdk17-openshift-rhel8"
 description: "Red Hat JBoss Enterprise Application Platform 7.4 OpenShift container image."
 version: "7.4.23"
 from: "registry.redhat.io/ubi8/ubi:latest"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-eap-74-openjdk17-builder-openshift-rhel8-container"
+      value: "jboss-eap-74-els-openjdk17-builder-openshift-rhel8-container"
     - name: "io.k8s.description"
       value: "Platform for building and running JavaEE applications on JBoss EAP 7.4"
     - name: "io.k8s.display-name"
@@ -44,7 +44,7 @@ modules:
           - name: jboss-eap-modules
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-modules.git
-                  ref: EAP_7423_CR2
+                  ref: master
           - name: jboss-eap-7-image
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-7-image.git
@@ -161,4 +161,4 @@ osbs:
         signing_intent: release
   repository:
     name: containers/jboss-eap-74-openjdk17-builder
-    branch: jb-eap-7.4-rhel-8
+    branch: jb-eap-7.4-els-rhel-8

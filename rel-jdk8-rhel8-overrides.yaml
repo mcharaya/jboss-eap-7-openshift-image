@@ -1,10 +1,10 @@
 schema_version: 1
 
-name: "jboss-eap-7/eap74-openjdk8-openshift-rhel8"
+name: "jboss-eap-7/eap74-els-openjdk8-openshift-rhel8"
 
 labels:
     - name: "com.redhat.component"
-      value: "jboss-eap-74-openjdk8-builder-openshift-rhel8-container"
+      value: "jboss-eap-74-els-openjdk8-builder-openshift-rhel8-container"
 
 modules:
       install:
@@ -38,4 +38,4 @@ osbs:
         signing_intent: release
   repository:
     name: containers/jboss-eap-74-openjdk8-builder
-    branch: jb-eap-7.4-rhel-8
+    branch: jb-eap-7.4-els-rhel-8
