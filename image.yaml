@@ -6,7 +6,7 @@ version: "7.4.23"
 from: "registry.redhat.io/ubi8/ubi:latest"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-eap-74-els-openjdk11-builder-openshift-rhel8-container"
+      value: "jboss-eap-74-openjdk11-builder-openshift-rhel8-container"
     - name: "io.k8s.description"
       value: "Platform for building and running JavaEE applications on JBoss EAP 7.4"
     - name: "io.k8s.display-name"
