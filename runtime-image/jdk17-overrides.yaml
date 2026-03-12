@@ -6,7 +6,7 @@ from: "registry.redhat.io/ubi8/ubi:latest"
 
 labels:
     - name: "com.redhat.component"
-      value: "jboss-eap-74-openjdk17-runtime-openshift-rhel8-container"
+      value: "jboss-eap-74-els-openjdk17-runtime-openshift-rhel8-container"
 
 envs:
      - name: DISABLE_LEGACY_SECURITY
@@ -50,5 +50,5 @@ osbs:
         pulp_repos: true
         signing_intent: release
   repository:
-    name: containers/jboss-eap-74-openjdk17-runtime
+    name: containers/jboss-eap-74-els-openjdk17-runtime
     branch: jb-eap-7.4-els-rhel-8

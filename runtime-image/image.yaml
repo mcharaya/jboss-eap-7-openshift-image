@@ -2,11 +2,11 @@ schema_version: 1
 
 name: "jboss-eap-7/eap74-els-openjdk11-runtime-openshift-rhel8"
 description: "The JBoss EAP 7.4 OpenJDK 11 runtime image"
-version: "7.4.23"
+version: "7.4.24"
 from: "registry.redhat.io/ubi8/ubi:latest"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-eap-74-openjdk11-runtime-openshift-rhel8-container"
+      value: "jboss-eap-74-els-openjdk11-runtime-openshift-rhel8-container"
     - name: "io.k8s.description"
       value: "Base image to run an EAP server and application"
     - name: "io.k8s.display-name"
@@ -53,7 +53,7 @@ modules:
           - name: jboss-eap-modules
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-modules.git
-                  ref: EAP_7423_CR2_JBEAP_31370
+                  ref: EAP_7424_CR1
       install:
           - name: jboss.container.util.pkg-update      
           - name: jboss.container.openjdk.jdk
