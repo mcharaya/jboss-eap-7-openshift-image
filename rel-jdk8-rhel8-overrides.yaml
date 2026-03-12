@@ -4,7 +4,7 @@ name: "jboss-eap-7/eap74-els-openjdk8-openshift-rhel8"
 
 labels:
     - name: "com.redhat.component"
-      value: "jboss-eap-74-openjdk8-builder-openshift-rhel8-container"
+      value: "jboss-eap-74-els-openjdk8-builder-openshift-rhel8-container"
 
 modules:
       install:
@@ -37,5 +37,5 @@ osbs:
         pulp_repos: true
         signing_intent: release
   repository:
-    name: containers/jboss-eap-74-openjdk8-builder
+    name: containers/jboss-eap-74-els-openjdk8-builder
     branch: jb-eap-7.4-els-rhel-8
