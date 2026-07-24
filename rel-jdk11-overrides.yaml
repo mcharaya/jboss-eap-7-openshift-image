@@ -6,7 +6,7 @@ modules:
           - name: jboss.container.eap.galleon.build-settings
             version: "osbs"
           - name: jboss.container.maven.module
-            version: "3.6"
+            version: "3.8"
           - name: os-eap-python
             version: '3.6'
           - name: jboss.container.jolokia
