@@ -48,8 +48,8 @@ modules:
       repositories:
           - name: cct_module
             git:
-                  url: https://github.com/jfdenise/cct_module.git
-                  ref: maven_3.9.9_0.45.x
+                  url: https://github.com/jboss-openshift/cct_module.git
+                  ref: 0.45.7
           - name: jboss-eap-modules
             git:
                   url: https://github.com/jboss-container-images/jboss-eap-modules.git
