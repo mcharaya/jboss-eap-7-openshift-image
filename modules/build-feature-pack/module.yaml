@@ -22,7 +22,7 @@ envs:
   description: By default the feature-pack sources are deleted. Set this variable to true to keep it in the image (mainly for debug purpose).
 
 artifacts:
-  - url: https://jenkins-csb-eap-prod.dno.corp.redhat.com/job/EAP-7.4.x/job/jboss-eap-7.4.x-patch-maven-repository/72/artifact/jboss-eap-7.4.25.GA-JBEAP-34146-image-builder-maven-repository.zip
+  - url: https://download.devel.redhat.com/devel/candidates/middleware/eap/JBEAP-7.4.25.GA-JBEAP-34146/jboss-eap-7.4.25.GA-JBEAP-34146-image-builder-maven-repository.zip
     md5: 45d51dae4276986453681c8fa32c8276
     # Optionally, overwrite target name
     target: maven-repo.zip
